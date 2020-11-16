@@ -25,8 +25,8 @@ public class demo2 {
          * webDriver:浏览器驱动
          * timeout:最长超时时间，默认以秒为单位
          */
-        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#index > div.btns > button")));
+//        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#index > div.btns > button")));
 
         // 点击开始游戏
 //        #index > div.btns > button

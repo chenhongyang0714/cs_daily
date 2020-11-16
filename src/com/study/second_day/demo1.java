@@ -39,8 +39,8 @@ public class demo1 {
         login_button.click();
 
 //      手动过验证码
-        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#key")));
+//        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#key")));
 
         // 实现商品搜搜
         // #key

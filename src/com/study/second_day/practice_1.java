@@ -14,8 +14,8 @@ public class practice_1 {
         webDriver.get("https://www.dytt8.net/index.htm");
 
 //        等待透明层的加载
-        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 20);
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#cs_ap_8040 > div")));
+//        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 20);
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#cs_ap_8040 > div")));
 
         System.out.println("透明层已加载");
 //        去除透明层
